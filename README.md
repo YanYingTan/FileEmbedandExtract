@@ -21,7 +21,13 @@ root@kali # sudo apt-get install text2pcap
 ```
 
 ## Making the bash script executable on terminal
-In order to run the bash script successfully, please ensure that the directory path is correct and the permission is properly set for the bash script using chmod command:
+In order to run the bash script successfully, ensure that the directory path is correct. If the directory path is not correct, set it to the directory you saved the script.
+
+```Console
+root@kali # cd (directory)
+```
+
+Also ensure that the permission is properly set for the bash script using chmod command:
 
 ```Console
 root@kali # chmod 755 EmbedandExtractFile.sh
@@ -32,3 +38,6 @@ The chmod "755" will give you read, write, and execute permission.
 ```Console
 root@kali # ./EmbedandExtractFile.sh
 ```
+
+## Expected Output
+![Image of output]
